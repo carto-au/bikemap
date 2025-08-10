@@ -15,6 +15,6 @@ export async function GET() {
         ).join("")}
       </urlset>
 
-    `.trim()
+    `.trim(),
   );
 }

@@ -26,7 +26,7 @@ export const REGIONS: RegionConfig[] = [
       description:
         "🚲️ Your guide to Sydney’s cycle network — See safe routes to ride in Sydney including separated cycleways, shared paths, cycleways under construction, planned cycleways and more.",
       ogSiteName: "SydneyBikeMap",
-      ogImage: "https://bikemap.carto.au/og-image.png",
+      ogImage: "https://bikemap.carto.au/og-image-sydney.png",
     },
   },
   {
@@ -40,7 +40,7 @@ export const REGIONS: RegionConfig[] = [
       description:
         "🚲️ Your guide to Melbourne’s cycle network — See safe routes to ride in Melbourne including separated cycleways, shared paths, cycleways under construction, planned cycleways and more.",
       ogSiteName: "MelbourneBikeMap",
-      ogImage: "https://bikemap.carto.au/og-image.png", // TODO: Separate og-image
+      ogImage: "https://bikemap.carto.au/og-image-melbourne.png",
     },
   },
 ];

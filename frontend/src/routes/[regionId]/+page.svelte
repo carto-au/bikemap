@@ -36,10 +36,6 @@
   <!-- Title -->
   <title>{data.regionConfig.headTags.title}</title>
   <meta property="og:title" content={data.regionConfig.headTags.title} />
-  <meta
-    property="og:site_name"
-    content={data.regionConfig.headTags.ogSiteName}
-  />
   <!-- Description-->
   <meta name="description" content={data.regionConfig.headTags.description} />
   <meta
@@ -50,7 +46,7 @@
   <meta property="og:image" content={data.regionConfig.headTags.ogImage} />
 </svelte:head>
 
-<main class="flex flex-col select-none">
+<main class="flex select-none flex-col">
   <Infobox regionConfig={data.regionConfig} />
   <Map regionConfig={data.regionConfig} />
 </main>

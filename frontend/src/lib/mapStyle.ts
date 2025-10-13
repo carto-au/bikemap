@@ -1329,6 +1329,7 @@ const mapStyle: StyleSpecification = {
         ["==", "subclass", "station"],
         ["!=", "statecode", "1"],
         ["!=", "statecode", "2"],
+        ["!=", "statecode", "8"],
       ],
       layout: {
         ...PUBLIC_TRANSPORT_STOP_STYLE_LAYOUT,
@@ -1377,6 +1378,42 @@ const mapStyle: StyleSpecification = {
           "nsw_train",
         ],
         "icon-size": {
+          stops: [
+            // when zoom is 9
+            [9, 0.015],
+            // when zoom is 15
+            [15, 0.04],
+          ],
+        },
+      },
+      paint: {
+        ...PUBLIC_TRANSPORT_STOP_STYLE_PAINT,
+      },
+    },
+    {
+      id: "pt_station_act",
+      type: "symbol",
+      source: "openmaptiles",
+      "source-layer": "transportation_name",
+      minzoom: 9,
+      filter: [
+        "all",
+        ["==", "$type", "Point"],
+        ["==", "class", "railway"],
+        ["==", "subclass", "station"],
+        ["==", "statecode", "8"],
+      ],
+      layout: {
+        ...PUBLIC_TRANSPORT_STOP_STYLE_LAYOUT,
+        "icon-image": [
+          "match",
+          ["get", "subsubclass"],
+          "light_rail",
+          "act_light_rail",
+          "nsw_train", // Only train station in ACT is operated by NSW so show NSW icon
+        ],
+        "icon-size": {
+          // NOTE: Same as NSW
           stops: [
             // when zoom is 9
             [9, 0.015],

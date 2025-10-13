@@ -50,6 +50,7 @@
       center: regionConfig.startCoord,
       zoom: regionConfig.startZoom,
       maxBounds: regionConfig.maxBounds,
+      minZoom: 5,
       maxZoom: 20,
       // customAttribution:
       //   "&copy; SydneyBikeMap &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",

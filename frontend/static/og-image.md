@@ -3,3 +3,5 @@ Steps to reproduce:
 2. Expand legend
 3. For Sydney: Go to path /sydney#map=12.33/-33.88677/151.18527 & take screenshot
 4. For Melbourne: Go to path /melbourne#map=12.33/-37.80516/144.95351 & take screenshot
+4. For Brisbane: Go to path /brisbane#map=12.33/-27.46489/153.01584 & take screenshot
+4. For Canberra: Go to path /canberra#map=12.33/-35.28881/149.10006 & take screenshot

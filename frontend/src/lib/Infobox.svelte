@@ -25,7 +25,7 @@
             )}>{region.name}</a
           > |&nbsp;
         {/each}
-        <span class="italic opacity-50">More coming soon!</span>
+        <span class="italic opacity-50">More soon!</span>
       </div>
       <Logo regionName={regionConfig.name} />
     </div>

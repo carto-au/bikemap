@@ -28,9 +28,23 @@
       <h3 class="font-bold">Shared paths</h3>
 
       <p>
-        Shared paths are walkways, areas, or footpaths that allow both bikes and
-        pedestrians. They can be marked with a blue line, white centre line,
-        pedestrian/bike symbols, or a sign.
+        Shared paths are walkways, areas, or footpaths that are specifically
+        designated for both bikes and pedestrians. They can be marked with a
+        blue line, white centre line, pedestrian/bike symbols, or a sign.
+      </p>
+
+      <p>
+        NOTE: In most states, it&rsquo;s legal to ride on any footpath, even if
+        it&rsquo;s not a shared path. However, it&rsquo;s restricted in NSW &
+        VIC. See <a
+          href="https://www.nsw.gov.au/driving-boating-and-transport/roads-safety-and-rules/bicycle-safety-and-rules/riding-bikes-near-pedestrians"
+          target="_blank">NSW footpath riding laws</a
+        >
+        and
+        <a
+          href="https://transport.vic.gov.au/road-and-active-transport/active-transport/bicycles/bike-riders-and-sharing-the-road"
+          target="_blank">VIC footpath riding laws</a
+        >.
       </p>
 
       <enhanced:img

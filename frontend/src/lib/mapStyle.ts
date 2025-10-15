@@ -44,23 +44,6 @@ const PUBLIC_TRANSPORT_STOP_STYLE_PAINT = {
   },
 };
 
-const CONTOURS_STYLE_LAYOUT = {
-  "line-cap": "round",
-  "line-join": "round",
-};
-
-const CONTOURS_STYLE_PAINT = {
-  "line-color": "hsl(47, 80%, 28%)",
-  "line-opacity": {
-    stops: [
-      [14, 0.1],
-      [16, 0.175],
-      [18, 0.25],
-    ],
-  },
-  "line-width": 1,
-};
-
 const ONEWAY_STYLE_LAYOUT = {
   visibility: "visible",
   "symbol-placement": "line",
@@ -378,24 +361,26 @@ const mapStyle: StyleSpecification = {
     //   paint: { "text-color": "rgba(212, 177, 146, 1)" },
     // },
     {
-      id: "contours_sub10m",
-      type: "line",
-      source: "contours",
-      "source-layer": "contours",
-      minzoom: 14,
-      filter: ["all", ["!=", ["%", ["to-number", ["get", "e"]], 10], 0]],
-      layout: { ...CONTOURS_STYLE_LAYOUT },
-      paint: { ...CONTOURS_STYLE_PAINT },
-    },
-    {
-      id: "contours_10m",
+      id: "contours",
       type: "line",
       source: "contours",
       "source-layer": "contours",
       minzoom: 12,
-      filter: ["all", ["==", ["%", ["to-number", ["get", "e"]], 10], 0]],
-      layout: { ...CONTOURS_STYLE_LAYOUT },
-      paint: { ...CONTOURS_STYLE_PAINT },
+      layout: {
+        "line-cap": "round",
+        "line-join": "round",
+      },
+      paint: {
+        "line-color": "hsl(47, 80%, 28%)",
+        "line-opacity": {
+          stops: [
+            [14, 0.1],
+            [16, 0.175],
+            [18, 0.25],
+          ],
+        },
+        "line-width": 1,
+      },
     },
     // Water must be above contours to prevent all the weird harbour/ocean contours showing
     {

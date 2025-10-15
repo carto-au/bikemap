@@ -17,6 +17,11 @@
         a kerb, and are for bikes only.
       </p>
 
+      <p>
+        Shared paths that have separate lanes for walkers and riders are also
+        shown in this colour.
+      </p>
+
       <enhanced:img
         src="./assets/infra-examples/separatedCycleway1.jpg?w=928&h=696"
         alt="College Street Cycleway"

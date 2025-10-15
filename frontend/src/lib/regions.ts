@@ -40,19 +40,19 @@ export const REGIONS: RegionConfig[] = [
       ogImage: "https://bikemap.carto.au/og-image-melbourne.png",
     },
   },
-  // {
-  //   id: "brisbane",
-  //   name: "Brisbane",
-  //   startCoord: [153.0085, -27.4631],
-  //   maxBounds: [151.4940, -28.4828, 154.5678, -26.2241],
-  //   startZoom: 10.5,
-  //   headTags: {
-  //     title: "Brisbane Bike Map — Map of cycle paths in Brisbane",
-  //     description:
-  //       "🚲️ Your guide to Brisbane’s cycle network — See safe routes to ride in Brisbane including separated cycleways, shared paths, cycleways under construction, planned cycleways and more.",
-  //     ogImage: "https://bikemap.carto.au/og-image-brisbane.png",
-  //   },
-  // },
+  {
+    id: "brisbane",
+    name: "Brisbane",
+    startCoord: [153.0085, -27.4631],
+    maxBounds: [151.494, -28.4828, 154.5678, -26.2241],
+    startZoom: 10.5,
+    headTags: {
+      title: "Brisbane Bike Map — Map of cycle paths in Brisbane",
+      description:
+        "Your guide to Brisbane’s cycle network — See safe routes to ride in Brisbane including separated cycleways, shared paths, cycleways under construction, planned cycleways and more.",
+      ogImage: "https://bikemap.carto.au/og-image-brisbane.png",
+    },
+  },
   {
     id: "canberra",
     name: "Canberra",

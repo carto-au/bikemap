@@ -46,7 +46,7 @@
   <meta property="og:image" content={data.regionConfig.headTags.ogImage} />
 </svelte:head>
 
-<main class="flex select-none flex-col">
+<main class="flex flex-col select-none">
   <Infobox regionConfig={data.regionConfig} />
   <Map regionConfig={data.regionConfig} />
 </main>

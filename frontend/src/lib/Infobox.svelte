@@ -44,12 +44,10 @@
     </div>
     <footer class="border-t border-inherit bg-gray-100 p-3 pt-2">
       <div class="mt-1 text-xs">
-        Built by <a href="https://ethan.link" target="_blank">Ethan</a> | Data
-        &copy;
-        <a href="https://www.openstreetmap.org/copyright" target="_blank"
-          >OpenStreetMap</a
+        Brought to you by <a href="https://carto.au" target="_blank">carto.au</a
         >
-        contributors
+        using data from
+        <a href="https://carto.au/sources" target="_blank">various sources</a>.
       </div>
       <div class="mt-0.5 text-xs">
         <a href="https://github.com/carto-au/bikemap" target="_blank"

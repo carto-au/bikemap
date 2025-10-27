@@ -49,7 +49,7 @@ export const REGIONS: RegionConfig[] = [
     headTags: {
       title: "Brisbane Bike Map — Map of cycle paths in Brisbane",
       description:
-        "Your guide to Brisbane’s cycle network — See safe routes to ride in Brisbane including separated cycleways, shared paths, cycleways under construction, planned cycleways and more.",
+        "Your guide to Brisbane’s cycle network — See safe routes to ride in Brisbane including separated cycleways/bikeways, shared paths, cycleways under construction, planned cycleways and more.",
       ogImage: "https://bikemap.carto.au/og-image-brisbane.png",
     },
   },

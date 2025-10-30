@@ -72,11 +72,11 @@ const mapStyle: StyleSpecification = {
   sources: {
     openmaptiles: {
       type: "vector",
-      url: "pmtiles://https://src.carto.au/bikemap.pmtiles",
+      url: "pmtiles://https://src.carto.au/aus/bikemap-pmtiles/bikemap.pmtiles",
     },
     contours: {
       type: "vector",
-      url: "pmtiles://https://src.carto.au/contours.pmtiles",
+      url: "pmtiles://https://src.carto.au/aus/contours-pmtiles/contours.pmtiles",
     },
   },
   glyphs: "/glyphs/{fontstack}/{range}.pbf",

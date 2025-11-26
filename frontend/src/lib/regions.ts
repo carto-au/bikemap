@@ -21,7 +21,7 @@ export const REGIONS: RegionConfig[] = [
     maxBounds: [149.536285, -34.927346, 152.571173, -32.231172],
     startZoom: 10.5,
     headTags: {
-      title: "Sydney Bike Map — Map of cycle paths in Sydney",
+      title: "SydneyBikeMap: Map of cycle paths in Sydney",
       description:
         "🚲️ Your guide to Sydney’s cycle network — See safe routes to ride in Sydney including separated cycleways, shared paths, cycleways under construction, planned cycleways and more.",
       ogImage: "https://bikemap.carto.au/og-image-sydney.png",
@@ -34,7 +34,7 @@ export const REGIONS: RegionConfig[] = [
     maxBounds: [142.8513, -39.2154, 146.8921, -36.1339],
     startZoom: 10.5,
     headTags: {
-      title: "Melbourne Bike Map — Map of cycle paths in Melbourne",
+      title: "MelbourneBikeMap: Map of cycle paths in Melbourne",
       description:
         "🚲️ Your guide to Melbourne’s cycle network — See safe routes to ride in Melbourne including separated cycleways, shared paths, cycleways under construction, planned cycleways and more.",
       ogImage: "https://bikemap.carto.au/og-image-melbourne.png",
@@ -47,7 +47,7 @@ export const REGIONS: RegionConfig[] = [
     maxBounds: [151.494, -28.4828, 154.5678, -26.2241],
     startZoom: 10.5,
     headTags: {
-      title: "Brisbane Bike Map — Map of cycle paths in Brisbane",
+      title: "BrisbaneBikeMap: Map of cycle paths in Brisbane",
       description:
         "Your guide to Brisbane’s cycle network — See safe routes to ride in Brisbane including separated cycleways/bikeways, shared paths, cycleways under construction, planned cycleways and more.",
       ogImage: "https://bikemap.carto.au/og-image-brisbane.png",
@@ -60,7 +60,7 @@ export const REGIONS: RegionConfig[] = [
     maxBounds: [148.2625, -36.1672, 149.8707, -34.6724],
     startZoom: 10.5,
     headTags: {
-      title: "Canberra Bike Map — Map of cycle paths in Canberra",
+      title: "CanberraBikeMap: Map of cycle paths in Canberra",
       description:
         "🚲️ Your guide to Canberra’s cycle network — See safe routes to ride in Canberra including separated cycleways, shared paths, cycleways under construction, planned cycleways and more.",
       ogImage: "https://bikemap.carto.au/og-image-canberra.png",

@@ -44,8 +44,7 @@
     </div>
     <footer class="border-t border-inherit bg-gray-100 p-3 pt-2">
       <div class="mt-1 text-xs">
-        Brought to you by <a href="https://carto.au" target="_blank">carto.au</a
-        >
+        Built by <a href="https://carto.au" target="_blank">Carto Australia</a>
         using data from
         <a href="https://carto.au/sources" target="_blank">various sources</a>.
       </div>

@@ -1,6 +1,6 @@
 <script lang="ts">
   import "../app.css";
-  import "@fontsource-variable/inter";
+  import "@fontsource-variable/inter/wght.css";
 
   let { children } = $props();
 </script>
